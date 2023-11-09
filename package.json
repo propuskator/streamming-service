@@ -1,0 +1,58 @@
+{
+    "name": "streamming-service",
+    "version": "1.0.0",
+    "description": "",
+    "main": "runner.js",
+    "scripts": {
+        "start:dev": "MODE=application nodemon runner.js",
+        "start": "MODE=application node runner.js",
+        "test:lint": "eslint lib app.js --ext js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:propuskator/streamming-service.git"
+    },
+    "author": "Propuskator",
+    "dependencies": {
+        "@babel/core": "^7.12.16",
+        "@babel/plugin-proposal-class-properties": "^7.12.13",
+        "@babel/plugin-proposal-decorators": "^7.12.13",
+        "@babel/plugin-proposal-object-rest-spread": "^7.12.13",
+        "@babel/plugin-proposal-optional-chaining": "^7.12.16",
+        "@babel/preset-env": "^7.12.16",
+        "@babel/register": "^7.12.13",
+        "babel-plugin-add-module-exports": "^1.0.4",
+        "bcryptjs": "^2.4.3",
+        "bluebird": "^3.7.2",
+        "cls-hooked": "^4.2.2",
+        "colors": "^1.4.0",
+        "confme": "^1.1.0",
+        "dns": "^0.1.2",
+        "express": "^4.17.1",
+        "express-ws": "^4.0.0",
+        "fs-extra": "^9.1.0",
+        "jsonwebtoken": "^8.5.1",
+        "lodash": "^4.17.20",
+        "moment-timezone": "^0.5.33",
+        "mysql2": "^2.2.5",
+        "nanoid": "^3.1.20",
+        "sequelize": "^6.5.0",
+        "underscore": "^1.12.0",
+        "uuid": "^7.0.3",
+        "winston": "^3.3.3"
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.20.0",
+        "eslint-config-webbylab": "^5.4.1",
+        "eslint-plugin-fetch": "0.0.1",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-more": "^1.0.0",
+        "eslint-plugin-no-require-lodash": "^1.1.0",
+        "eslint-plugin-prefer-spread": "^1.0.3",
+        "eslint-plugin-react": "^7.22.0",
+        "eslint-plugin-security": "^1.4.0",
+        "nodemon": "^2.0.7"
+    }
+}

@@ -1,0 +1,9 @@
+node_modules/
+npm-debug.log
+coverage/
+logs/*
+.env
+.idea
+test.js
+.DS_Store
+commands.txt

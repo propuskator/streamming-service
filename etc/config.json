@@ -1,0 +1,26 @@
+{
+    "wsPort": "{{WS_PORT}}",
+    "db": {
+        "username": "{{DB_USERNAME}}",
+        "password": "{{DB_PASSWORD}}",
+        "database": "{{DB_NAME}}",
+        "host": "{{DB_HOST}}",
+        "port": "{{DB_PORT}}",
+        "dialect": "{{DB_DIALECT}}"
+    },
+    "test-db": {
+        "database": "{{TEST_DATABASE_NAME}}",
+        "rootPassword": "{{MYSQL_ROOT_PASSWORD}}",
+        "username": "{{TEST_DB_USERNAME}}",
+        "password": "{{TEST_DB_PASSWORD}}",
+        "host": "{{TEST_DB_HOST}}",
+        "port": "{{TEST_DB_PORT}}",
+        "dialect": "{{TEST_DB_DIALECT}}"
+    },
+    "tokens" : {
+        "accessToken" : {
+            "lifetime" : "{{ACCESS_TOKEN_LIFETIME}}",
+            "secret" : "{{ACCESS_TOKEN_SECRET}}"
+        }
+    }
+}
